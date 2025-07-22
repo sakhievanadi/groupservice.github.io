@@ -1,0 +1,64 @@
+RewriteEngine On
+
+# Поддомен: production.groupservice.kz → production.html
+RewriteCond %{HTTP_HOST} ^production\.groupservice\.kz$ [NC]
+RewriteRule ^$ production.html [L]
+
+# Поддомен: repair-pvh.groupservice.kz → repair1.html
+RewriteCond %{HTTP_HOST} ^repair-pvh\.groupservice\.kz$ [NC]
+RewriteRule ^$ repair1.html [L]
+
+# Поддомен: repair-pvh-door.groupservice.kz → repair-pvh.html
+RewriteCond %{HTTP_HOST} ^repair-pvh-door\.groupservice\.kz$ [NC]
+RewriteRule ^$ repair-pvh.html [L]
+
+# Поддомен: production-aluminum.groupservice.kz → production-aluminum.html
+RewriteCond %{HTTP_HOST} ^production-aluminum\.groupservice\.kz$ [NC]
+RewriteRule ^$ production-aluminum.html [L]
+
+# Поддомен: repair-aluminum-door.groupservice.kz → repair-aluminum.html
+RewriteCond %{HTTP_HOST} ^repair-aluminum-door\.groupservice\.kz$ [NC]
+RewriteRule ^$ repair-aluminum.html [L]
+
+# Поддомен: aluminum-window.groupservice.kz → aluminum.html
+RewriteCond %{HTTP_HOST} ^aluminum-window\.groupservice\.kz$ [NC]
+RewriteRule ^$ aluminum.html [L]
+
+# Поддомен: euro.groupservice.kz → euro.html
+RewriteCond %{HTTP_HOST} ^euro\.groupservice\.kz$ [NC]
+RewriteRule ^$ euro.html [L]
+
+# Поддомен: doubleglazing.groupservice.kz → doubleglazing.html
+RewriteCond %{HTTP_HOST} ^doubleglazing\.groupservice\.kz$ [NC]
+RewriteRule ^$ doubleglazing.html [L]
+
+# Поддомен: fittings.groupservice.kz → fittings.html
+RewriteCond %{HTTP_HOST} ^fittings\.groupservice\.kz$ [NC]
+RewriteRule ^$ fittings.html [L]
+
+# Поддомен: nets.groupservice.kz → nets.html
+RewriteCond %{HTTP_HOST} ^nets\.groupservice\.kz$ [NC]
+RewriteRule ^$ nets.html [L]
+
+# Поддомен: windowsill.groupservice.kz → windowsill.html
+RewriteCond %{HTTP_HOST} ^windowsill\.groupservice\.kz$ [NC]
+RewriteRule ^$ windowsill.html [L]
+
+# Поддомен: slopes.groupservice.kz → slopes.html
+RewriteCond %{HTTP_HOST} ^slopes\.groupservice\.kz$ [NC]
+RewriteRule ^$ slopes.html [L]
+
+# Поддомен: hardopen.groupservice.kz → hardopen.html
+RewriteCond %{HTTP_HOST} ^hardopen\.groupservice\.kz$ [NC]
+RewriteRule ^$ hardopen.html [L]
+
+# Поддомен: doorseal.groupservice.kz → doorseal.html
+RewriteCond %{HTTP_HOST} ^doorseal\.groupservice\.kz$ [NC]
+RewriteRule ^$ doorseal.html [L]
+
+# Поддомен: alteration.groupservice.kz → alteration.html
+RewriteCond %{HTTP_HOST} ^alteration\.groupservice\.kz$ [NC]
+RewriteRule ^$ alteration.html [L]
+
+
+
